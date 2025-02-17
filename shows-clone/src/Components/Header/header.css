@@ -1,0 +1,75 @@
+/* Outer container for the header */
+.header_outer_container {
+    position:sticky;
+    background-color: black; /* Dark background */
+    padding: 20px 0;
+    justify-content: center;
+    /* background-color: transparent; */
+    height: 10vh;
+
+  }
+  
+  /* Main header container */
+  .header_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  /* Left section of the header */
+  .header_left ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* List item styling */
+  .header_left li {
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    margin-right: 20px;
+    cursor: pointer;
+    transition: color 0.3s;
+  }
+  
+  /* Hover effect for the list items */
+  .header_left li:hover {
+    color: #e50914; /* Red color on hover */
+  }
+  
+  /* Styling for the logo or brand name */
+  .header_left li:first-child {
+    font-size: 24px;
+    font-weight: bold;
+    margin-right: 40px;
+  }
+  /* Right section of the header */
+.header_right ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Styling for each icon in the right section */
+  .header_right li {
+    color: white;
+    font-size: 24px;
+    margin-left: 20px;
+    cursor: pointer;
+    transition: color 0.3s;
+  }
+  
+  /* Hover effect for icons */
+  .header_right li:hover {
+    color: #e50914; /* Red color on hover */
+  }
+  .header_left .show_movie{
+    color: rgb(139, 14, 14);
+    font-size: large;
+  }
